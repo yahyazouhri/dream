@@ -1,4 +1,4 @@
-const Discord = require("discord.js");
+aconst Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "+";
 client.on('ready', () => {
@@ -8,7 +8,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : DREAM ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`TEXT`,"http://twitch.tv/Dream")
+client.user.setGame(`The_Blm`,"http://twitch.tv/Aymen")
 client.user.setStatus("dnd")
 });
 
